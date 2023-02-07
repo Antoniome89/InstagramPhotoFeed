@@ -1,9 +1,73 @@
 .header {
-    background: #ff6600;
-    height: 100px;
-    width: 250px;
+    display: flex;
+    height: 60px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
-.header h1 {
-    text-align: center;
+#title {
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    text-align: left;
+}
+
+#title h1 {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.content {
+    position: relative;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1, .image2, .image3 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+}
+
+#title1, #title2, #title3 {
+    width: 500px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+#title1 p, #title2 p, #title3 p {
+    margin-left: 5px;
+}
+
+.date1 {
+    height: 40px;
+    background-color: blue;
+    z-index: 2;
+}
+
+
+#dog, #skate, #pasta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer1, #footer2, #footer3 {
+    width: 500px;
+    background-color: white;
+}
+
+#footer1 p, #footer2 p, #footer3 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
 }
